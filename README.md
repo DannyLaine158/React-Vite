@@ -1,8 +1,12 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# React-Vite
+Repositorio para conferencia React + Vite
+## Instalar Yarn (Recomendado por instalar dependencias en paralelo)
+```npm install --global yarn```
+```yarn --version```
+## Crear proyecto con Yarn y Vite
+```yarn create vite```
+1. Nombre del proyecto
+2. Framework a escoger
+3. SWC (Compilador escrito en rust)
+## Alternativa
+```yarn create vite my-project --template react-swc```
