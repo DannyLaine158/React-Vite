@@ -1,6 +1,7 @@
 # React-Vite
 Repositorio para conferencia React + Vite
 ## Instalar Yarn (Recomendado por instalar dependencias en paralelo)
+```cd frontend```
 ```npm install --global yarn```
 ```yarn --version```
 ## Crear proyecto con Yarn y Vite
@@ -10,3 +11,8 @@ Repositorio para conferencia React + Vite
 3. SWC (Compilador escrito en rust)
 ## Alternativa
 ```yarn create vite my-project --template react-swc```
+
+## Backend
+```cd backend```
+
+```npm start```
